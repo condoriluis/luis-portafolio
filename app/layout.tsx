@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Mi portafolio desarrollado en Next.js, React y Tailwind CSS",
     images: ["/assets/images/favicon.png"],
   },
-  metadataBase: new URL("https://luis-miportafolio.vercel.app"),
+  metadataBase: new URL("https://luis-portafolio.vercel.app"),
 };
 
 export default function RootLayout({

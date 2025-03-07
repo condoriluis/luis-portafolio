@@ -1,0 +1,41 @@
+{
+  "name": "mi-portafolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.8.1",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^12.4.10",
+    "gsap": "^3.12.7",
+    "jquery": "^3.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "lightbox2": "^2.11.5",
+    "line-awesome": "^1.3.0",
+    "next": "15.2.1",
+    "owl.carousel": "^2.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-scroll": "^1.9.3",
+    "smooth-scrollbar": "^8.8.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/owl.carousel": "^2.3.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-scroll": "^1.8.10",
+    "typescript": "^5"
+  }
+}

@@ -34,7 +34,7 @@ const PortfolioSection = () => {
       imgSrc: "/assets/images/portfolio/inicio-gastos.png",
       alt: "Aplicación Móvil - Control de Gastos",
       categories: ["Flutter v3.27", "Dart v3.6", "Provider", "SQFlite", "Local Auth"],
-      link: "https://github.com/luiscz80/control-de-gastos",
+      link: "https://github.com/condoriluis/control-de-gastos",
       title: "Aplicación Móvil - Control de Gastos"
     },
     {

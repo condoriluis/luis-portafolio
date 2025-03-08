@@ -17,7 +17,7 @@ const LeftSidebar = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/luiscz80" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/condoriluis" target="_blank" rel="noopener noreferrer">
               <i className="lab la-github"></i>
             </a>
           </li>

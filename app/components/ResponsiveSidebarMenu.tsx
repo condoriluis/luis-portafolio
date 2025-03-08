@@ -9,14 +9,14 @@ const ResponsiveSidebarMenu: React.FC = () => {
   const closeSidebar = () => {
     setActive(false);
   };
-  
+
   return (
     <>
       <span className="icon-menu" onClick={toggleSidebar}>
         <span className="bar"></span>
         <span className="bar"></span>
       </span>
-      
+
       <div className={`responsive-sidebar-menu ${active ? 'active' : ''}`}>
         <div className="overlay" onClick={closeSidebar}></div>
         <div className="sidebar-menu-inner">
@@ -24,37 +24,37 @@ const ResponsiveSidebarMenu: React.FC = () => {
             <p>Menu</p>
             <ul className="menu scroll-nav-responsive d-flex">
               <li>
-                <a className="scroll-to" href="#home">
+                <a className="scroll-to" href="#home" onClick={closeSidebar}>
                   <i className="las la-home"></i> <span>Inicio</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#about">
+                <a className="scroll-to" href="#about" onClick={closeSidebar}>
                   <i className="lar la-user"></i> <span>Acerca</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#resume">
+                <a className="scroll-to" href="#resume" onClick={closeSidebar}>
                   <i className="las la-briefcase"></i> <span>Resumen</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#ability">
+                <a className="scroll-to" href="#ability" onClick={closeSidebar}>
                   <i className="las la-stream"></i> <span>Habilidades</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#skills">
+                <a className="scroll-to" href="#skills" onClick={closeSidebar}>
                   <i className="las la-shapes"></i> <span>Tecnologías</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#portfolio">
+                <a className="scroll-to" href="#portfolio" onClick={closeSidebar}>
                   <i className="las la-grip-vertical"></i> <span>Proyectos</span>
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#contact">
+                <a className="scroll-to" href="#contact" onClick={closeSidebar}>
                   <i className="las la-envelope"></i> <span>Contacto</span>
                 </a>
               </li>

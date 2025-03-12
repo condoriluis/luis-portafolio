@@ -42,7 +42,10 @@
         align-items: center;
     }
     .cont-work .theme-btn-work{
-        width: 76%;
+        width: 80%;
+    }
+    .cont-work .theme-btn{
+        width: 80%;
     }
 }
 

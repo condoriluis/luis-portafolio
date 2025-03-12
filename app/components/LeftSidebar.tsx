@@ -24,9 +24,11 @@ const LeftSidebar = () => {
             </a>
           </li>
         </ul>
+        <div className="cont-work">
         <a href="mailto:luis.condori.dev@gmail.com" className="theme-btn">
           <i className="las la-envelope"></i> ¡Contáctame!
         </a>
+        </div>
       </div>
     );
   };

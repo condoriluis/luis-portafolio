@@ -25,10 +25,10 @@
     }
     .left-sidebar > img.me {
         width: 100%;
-        max-width: 100px;
+        max-width: 150px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 46px;
+        margin-bottom: 36px;
     }
     .left-sidebar .sidebar-header .designation {
         line-height: 1.4;

@@ -1,6 +1,6 @@
 const LeftSidebar = () => {
     return (
-      <div className="left-sidebar my-md-5">
+      <div className="left-sidebar">
         <div className="sidebar-header d-flex align-items-center justify-content-between">
           <img src="/assets/images/logo.png" alt="Logo" />
           <span className="designation">Desarrollador de Software</span>

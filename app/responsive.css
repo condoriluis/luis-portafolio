@@ -34,9 +34,16 @@
         line-height: 1.4;
     }
     h2.email, h2.address{
-        font-size: 22px;
+        font-size: 18px;
     }
-   
+    .cont-work{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-work .theme-btn-work{
+        width: 76%;
+    }
 }
 
 @media (max-width: 1220px) {

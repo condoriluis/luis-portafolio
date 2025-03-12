@@ -6,7 +6,9 @@ const LeftSidebar = () => {
           <span className="designation">Desarrollador de Software</span>
         </div>
         <img className="me" src="/assets/images/me.jpg" alt="Me" />
+        <div className="cont-work">
         <span className="theme-btn-work">Disponible para Trabajar</span>
+        </div>
         <h2 className="email">luis.condori.dev@gmail.com</h2>
         <h2 className="address">Bolivia, La Paz</h2>
         <p className="copyright">&copy; 2025 Powered By Luis Alberto</p>

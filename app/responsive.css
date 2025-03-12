@@ -33,6 +33,29 @@
     .left-sidebar .sidebar-header .designation {
         line-height: 1.4;
     }
+    h2.email{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1355px) {
+    .left-sidebar {
+        max-width: 300px;
+        padding: 30px;
+    }
+    .left-sidebar > img.me {
+        width: 100%;
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 46px;
+    }
+    .left-sidebar .sidebar-header .designation {
+        line-height: 1.4;
+    }
+    h2.email{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1220px) {

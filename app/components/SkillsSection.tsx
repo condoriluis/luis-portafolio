@@ -58,13 +58,22 @@ const SkillsSection = () => {
             <div className="col-md-2 scroll-animation" data-animation="fade_from_left">
               <div className="skill">
                 <div className="skill-inner">
+                  <Image src="/assets/images/skills/flutter.png" alt="Flutter" width={50} height={50} />
+                </div>
+                <p className="name">Flutter</p>
+              </div>
+            </div>
+
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_right">
+              <div className="skill">
+                <div className="skill-inner">
                   <Image src="/assets/images/skills/vuejs.png" alt="VueJS 3" width={50} height={50} />
                 </div>
                 <p className="name">VueJS 3</p>
               </div>
             </div>
 
-            <div className="col-md-2 scroll-animation" data-animation="fade_from_right">
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_top">
               <div className="skill">
                 <div className="skill-inner">
                   <Image src="/assets/images/skills/vuetify.png" alt="Vuetify 3" width={50} height={50} />
@@ -76,9 +85,18 @@ const SkillsSection = () => {
             <div className="col-md-2 scroll-animation" data-animation="fade_from_bottom">
               <div className="skill">
                 <div className="skill-inner">
-                  <Image src="/assets/images/skills/flutter.png" alt="Flutter" width={50} height={50} />
+                  <Image src="/assets/images/skills/react.png" alt="React" width={50} height={50} />
                 </div>
-                <p className="name">Flutter</p>
+                <p className="name">React</p>
+              </div>
+            </div>
+
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_left">
+              <div className="skill">
+                <div className="skill-inner">
+                  <Image src="/assets/images/skills/nextjs.png" alt="Next.js" width={50} height={50} />
+                </div>
+                <p className="name">Next.js</p>
               </div>
             </div>
 

@@ -34,7 +34,7 @@ const HeroSection = () => {
               <p>Años de <br />Experiencia</p>
             </div>
             <div className="right scroll-animation" data-animation="fade_from_right">
-              <h1>50+</h1>
+              <h1>30+</h1>
               <p>Proyectos <br /> completados</p>
             </div>
           </div>

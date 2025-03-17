@@ -5,7 +5,7 @@ const LeftSidebar = () => {
           <img src="/assets/images/logo.png" alt="Logo" />
           <span className="designation">Desarrollador de Software</span>
         </div>
-        <img className="me" src="/assets/images/me.jpg" alt="Me" />
+        <img className="me" src="/assets/images/me.png" alt="Me" />
         <div className="cont-work">
         <span className="theme-btn-work">Disponible para Trabajar</span>
         </div>

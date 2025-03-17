@@ -2,6 +2,13 @@
     .left-sidebar {
         max-width: 400px;
     }
+    .left-sidebar > img.me {
+        width: 100%;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 26px;
+    }
     .left-sidebar .sidebar-header {
         margin-bottom: 30px;
     }

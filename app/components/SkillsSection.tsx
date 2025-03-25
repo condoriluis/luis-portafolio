@@ -224,6 +224,16 @@ const SkillsSection = () => {
                 <p className="name">Postman</p>
               </div>
             </div>
+
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_left">
+              <div className="skill">
+                <div className="skill-inner">
+                  <Image src="/assets/images/skills/docker.png" alt="Docker Desktop" width={50} height={50} />
+                </div>
+                <p className="name">Docker Desktop</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -51,6 +51,13 @@ const PortfolioSection = () => {
       link: "#",
       title: "Sistema - Marketplace"
     },
+    {
+      imgSrc: "/assets/images/portfolio/tasks.png",
+      alt: "Sistema - Gestor de Tareas",
+      categories: ["Next.js v15.2.1", "React", "framer-motion", "lightbox2", "line-awesome"],
+      link: "#",
+      title: "Sistema - Gestor de Tareas"
+    },
   ];
 
   const [visibleCount, setVisibleCount] = useState(3);

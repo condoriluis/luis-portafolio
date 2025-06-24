@@ -55,7 +55,7 @@ const PortfolioSection = () => {
       imgSrc: "/assets/images/portfolio/tasks.png",
       alt: "Sistema - Gestor de Tareas",
       categories: ["Next.js v15.2.1", "React", "framer-motion", "lightbox2", "line-awesome"],
-      link: "#",
+      link: "https://github.com/condoriluis/gestor-tareas",
       title: "Sistema - Gestor de Tareas"
     },
   ];

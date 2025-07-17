@@ -34,9 +34,15 @@ const AbilitySection = () => {
     },
     {
       icon: "lab la-vuejs",
-      title: "Frontend con Vue.js y Vuetify",
-      description: "Creación de interfaces dinámicas con Vue.js, Vuetify y consumo de APIs con Axios",
+      title: "Frontend con Vue.js, Vuetify, Next.js, React",
+      description: "Desarrollo de interfaces modernas con Vue.js/Vuetify y React/Next.js, incluyendo gestión de estado (Pinia/Redux) y consumo de APIs REST",
       animation: "fade_from_left",
+    },
+    {
+      icon: "las la-file-code",
+      title: "Documentación Técnica de APIs",
+      description: "Generación de documentación interactiva con Swagger/OpenAPI para endpoints RESTful",
+      animation: "fade_from_right",
     },
   ];
 

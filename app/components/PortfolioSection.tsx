@@ -1,12 +1,23 @@
 import React, { useState } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import { MdOpenInNew } from 'react-icons/md';
 
 const PortfolioSection = () => {
   const projects = [
+    {
+      imgSrc: "/assets/images/portfolio/tasks.png",
+      alt: "Sistema - Gestor de Tareas",
+      categories: ["Next.js v15.2.1", "React v19.0.0", "Typescript", "Swagger-ui-react", "Nodemailer"],
+      link: "https://gestor-tareas-luis.vercel.app/login",
+      github: "https://github.com/condoriluis/gestor-tareas",
+      title: "Sistema - Gestor de Tareas"
+    },
     {
       imgSrc: "/assets/images/portfolio/instalacion.png",
       alt: "Sistema - Dashboard Dinámico",
       categories: ["PHP v8.3", "Bootstrap v5.2", "AdminLTE v3.1", "Chart JS", "Select2", "Notie"],
       link: "https://youtu.be/P1ZPtxYVO9o?si=4Ftz4eD_EjAroOHr",
+      github: "",
       title: "Sistema - Dashboard Dinámico"
     },
     {
@@ -14,6 +25,7 @@ const PortfolioSection = () => {
       alt: "Sistema - Gestor de Archivos",
       categories: ["PHP v8.3", "Bootstrap v5", "Cloudinary", "AWS S3", "Vimeo", "Mailchimp"],
       link: "https://youtu.be/YLk3T5teh_Y?si=O7r2QsBA2PoIPnUc",
+      github: "",
       title: "Sistema - Gestor de Archivos"
     },
     {
@@ -21,6 +33,7 @@ const PortfolioSection = () => {
       alt: "Sistema - Landing Page Builder",
       categories: ["PHP v8.3", "Bootstrap v5", "CodeMirror", "Notie", "Toastr"],
       link: "https://youtu.be/YJPzgcj320Y?si=KDiHilUaAORkf0WE",
+      github: "",
       title: "Sistema - Landing Page Builder"
     },
     {
@@ -28,13 +41,15 @@ const PortfolioSection = () => {
       alt: "Sistema - Gestión y Registro de Usuarios",
       categories: ["NodeJS v16.20", "VueJS 3", "Vuetify 3", "Google Analytics", "Leaflet"],
       link: "https://youtu.be/CP_NyTHZbPY?si=wNwbM1PxgA_aApjY",
+      github: "",
       title: "Sistema - Gestión y Registro de Usuarios"
     },
     {
       imgSrc: "/assets/images/portfolio/inicio-gastos.png",
       alt: "Aplicación Móvil - Control de Gastos",
       categories: ["Flutter v3.27", "Dart v3.6", "Provider", "SQFlite", "Local Auth"],
-      link: "https://github.com/condoriluis/control-de-gastos",
+      link: "#",
+      github: "https://github.com/condoriluis/control-de-gastos",
       title: "Aplicación Móvil - Control de Gastos"
     },
     {
@@ -42,6 +57,7 @@ const PortfolioSection = () => {
       alt: "Sistema - Blog para Publicar Información",
       categories: ["PHP v8.3", "Bootstrap v4.6", "Google Analytics", "Facebook Pixel", "Google Tag Manager"],
       link: "https://youtu.be/shC-B24HnXw?si=E6AGWtrI3VM2Nqr_",
+      github: "",
       title: "Sistema - Blog para Publicar Información"
     },
     {
@@ -49,14 +65,8 @@ const PortfolioSection = () => {
       alt: "Sistema - Marketplace",
       categories: ["PHP v7.3", "Bootstrap v4.4", "Summernote", "Dropzone", "DataTables"],
       link: "#",
+      github: "",
       title: "Sistema - Marketplace"
-    },
-    {
-      imgSrc: "/assets/images/portfolio/tasks.png",
-      alt: "Sistema - Gestor de Tareas",
-      categories: ["Next.js v15.2.1", "React", "framer-motion", "lightbox2", "line-awesome"],
-      link: "https://github.com/condoriluis/gestor-tareas",
-      title: "Sistema - Gestor de Tareas"
     },
   ];
 
@@ -96,11 +106,21 @@ const PortfolioSection = () => {
                       ))}
                     </ul>
                   </div>
-                  <h2>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <div className="flex justify-between items-center mt-4">
+                    <h2 className="text-white hover:text-gray-200 transition-colors duration-300 text-xl font-medium">
                       {project.title}
-                    </a>
-                  </h2>
+                    </h2>
+                    <div className="flex gap-2">
+                      {project.github && (
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
+                          <FaGithub className="text-white text-xl hover:text-blue-400" />
+                        </a>
+                      )}
+                      <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200">
+                        <MdOpenInNew className="text-white text-xl hover:text-blue-400" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}

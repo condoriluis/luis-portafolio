@@ -20,11 +20,12 @@ const ServicesSection = () => {
                       <h4>Desarrollo de Páginas Web y Software</h4>
                     </div>
                     <ul className="feature-lists">
-                      <li>Desarrollo con <strong>Laravel, CodeIgniter, PHP, MySQL, PostgreSQL</strong></li>
-                      <li>Frontend con <strong>Vue.js 3, Vuetify 3, PrimeVue, JavaScript, Bootstrap 5, AdminLTE</strong></li>
+                      <li>Desarrollo con <strong>Laravel, CodeIgniter, Node.js, PHP, MySQL, PostgreSQL</strong></li>
+                      <li>Frontend con <strong>Vue.js 3, Vuetify 3, PrimeVue, React, Next.js, JavaScript, Bootstrap 5, AdminLTE</strong></li>
                       <li>Integración con <strong>APIs y servicios externos (Cloudinary, AWS S3, Vimeo, Mailchimp, etc.)</strong></li>
                       <li>Implementación en servidores Linux (Apache)</li>
                       <li>Optimización y seguridad en bases de datos <strong>MySQL, PostgreSQL</strong></li>
+                      <li>Desarrollo de aplicaciones móviles con Flutter/Dart</li>
                     </ul>
                   </div>
                 </div>
@@ -38,8 +39,10 @@ const ServicesSection = () => {
                       <li>Mantenimiento y optimización de servidores <strong>Linux</strong></li>
                       <li>Gestión de hosting, dominios y bases de datos</li>
                       <li>Implementación de medidas de seguridad y backups</li>
-                      <li>Solución de problemas y asistencia técnica remota</li>
+                      <li>Solución de problemas y asistencia técnica</li>
                       <li>Actualización y monitoreo de sistemas</li>
+                      <li>Manejo de sistemas operativos <strong>Windows, Linux</strong></li>
+                      <li>Implementación de entornos containerizados con <strong>Docker</strong> (orquestación, optimización de imágenes y despliegue)</li>
                     </ul>
                   </div>
                 </div>

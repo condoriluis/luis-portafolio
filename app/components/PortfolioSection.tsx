@@ -41,7 +41,7 @@ const PortfolioSection = () => {
       alt: "Sistema - Gestión y Registro de Usuarios",
       categories: ["NodeJS v16.20", "VueJS 3", "Vuetify 3", "Google Analytics", "Leaflet"],
       link: "https://youtu.be/CP_NyTHZbPY?si=wNwbM1PxgA_aApjY",
-      github: "",
+      github: "https://github.com/condoriluis/sistema-registro-usuarios.git",
       title: "Sistema - Gestión y Registro de Usuarios"
     },
     {

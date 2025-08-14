@@ -5,14 +5,6 @@ import { MdOpenInNew } from 'react-icons/md';
 const PortfolioSection = () => {
   const projects = [
     {
-      imgSrc: "/assets/images/portfolio/tasks.png",
-      alt: "Sistema - Gestor de Tareas",
-      categories: ["Next.js v15.2.1", "React v19.0.0", "Typescript", "Swagger-ui-react", "Nodemailer"],
-      link: "https://gestor-tareas-luis.vercel.app/login",
-      github: "https://github.com/condoriluis/gestor-tareas",
-      title: "Sistema - Gestor de Tareas"
-    },
-    {
       imgSrc: "/assets/images/portfolio/instalacion.png",
       alt: "Sistema - Dashboard Dinámico",
       categories: ["PHP v8.3", "Bootstrap v5.2", "AdminLTE v3.1", "Chart JS", "Select2", "Notie"],
@@ -43,6 +35,14 @@ const PortfolioSection = () => {
       link: "https://youtu.be/CP_NyTHZbPY?si=wNwbM1PxgA_aApjY",
       github: "https://github.com/condoriluis/sistema-registro-usuarios.git",
       title: "Sistema - Gestión y Registro de Usuarios"
+    },
+    {
+      imgSrc: "/assets/images/portfolio/tasks.png",
+      alt: "Sistema - Gestor de Tareas",
+      categories: ["Next.js v15.2.1", "React v19.0.0", "Typescript", "Swagger-ui-react", "Nodemailer"],
+      link: "https://gestor-tareas-luis.vercel.app/login",
+      github: "https://github.com/condoriluis/gestor-tareas",
+      title: "Sistema - Gestor de Tareas"
     },
     {
       imgSrc: "/assets/images/portfolio/inicio-gastos.png",

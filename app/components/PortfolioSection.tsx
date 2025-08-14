@@ -29,6 +29,14 @@ const PortfolioSection = () => {
       title: "Sistema - Landing Page Builder"
     },
     {
+      imgSrc: "/assets/images/portfolio/dashboard-vue.png",
+      alt: "Sistema - Dashboard con VueJS, Vuetify y ChartJS",
+      categories: ["VueJS 3", "Vuetify 3", "ChartJS", "Axios"],
+      link: "https://dashboards-vuejs.vercel.app/",
+      github: "https://github.com/condoriluis/dashboards-vuejs.git",
+      title: "Sistema - Dashboard con VueJS, Vuetify y ChartJS"
+    },
+    {
       imgSrc: "/assets/images/portfolio/login1.jpg",
       alt: "Sistema - Gestión y Registro de Usuarios",
       categories: ["NodeJS v16.20", "VueJS 3", "Vuetify 3", "Google Analytics", "Leaflet"],

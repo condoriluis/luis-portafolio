@@ -140,6 +140,15 @@ const SkillsSection = () => {
               </div>
             </div>
 
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_top">
+              <div className="skill">
+                <div className="skill-inner">
+                  <Image src="/assets/images/skills/python.png" alt="Python" width={50} height={50} />
+                </div>
+                <p className="name">Python</p>
+              </div>
+            </div>
+
             <div className="col-md-2 scroll-animation" data-animation="fade_from_left">
               <div className="skill">
                 <div className="skill-inner">
@@ -231,6 +240,24 @@ const SkillsSection = () => {
                   <Image src="/assets/images/skills/docker.png" alt="Docker Desktop" width={50} height={50} />
                 </div>
                 <p className="name">Docker Desktop</p>
+              </div>
+            </div>
+
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_right">
+              <div className="skill">
+                <div className="skill-inner">
+                  <Image src="/assets/images/skills/DuckDB.png" alt="DuckDB" width={50} height={50} />
+                </div>
+                <p className="name">DuckDB</p>
+              </div>
+            </div>
+
+            <div className="col-md-2 scroll-animation" data-animation="fade_from_bottom">
+              <div className="skill">
+                <div className="skill-inner">
+                  <Image src="/assets/images/skills/plotly.png" alt="Plotly" width={50} height={50} />
+                </div>
+                <p className="name">Plotly</p>
               </div>
             </div>
 

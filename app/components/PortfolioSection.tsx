@@ -55,7 +55,7 @@ const PortfolioSection = () => {
       categories: ["Next.js v15.2.1", "React v19.0.0", "Typescript", "Swagger-ui-react", "Nodemailer"],
       link: "https://gestor-tareas-luis.vercel.app/login",
       github: "https://github.com/condoriluis/gestor-tareas",
-      video: "",
+      video: "https://youtu.be/h-oldMHbpRY",
       title: "Sistema - Gestor de Tareas"
     },
     {

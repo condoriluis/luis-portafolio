@@ -37,7 +37,7 @@ export const resumen = {
       },
       {
         network: 'Curriculum Vitae',
-        url: '/cv',
+        url: '/curriculum?preview=true',
         username: 'luis-portafolio',
       },
     ],

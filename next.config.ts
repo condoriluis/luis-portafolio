@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-  },
+  serverExternalPackages: ["@react-pdf/renderer"],
 };
 
 export default nextConfig;

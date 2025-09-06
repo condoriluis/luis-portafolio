@@ -7,18 +7,17 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
 
-    const resumenData = await resumen;
+    const nameCv = `${resumen.basics.firstName} ${resumen.basics.middleName} ${resumen.basics.lastName}`;
     
-    if (!resumenData) {
+    if (!resumen) {
       return NextResponse.json({ error: 'No se encontraron datos' }, { status: 404 });
     }
     
-
     const TemplateComponent = ResumeDocument;
 
     const buffer = await renderToBuffer(
       <TemplateComponent
-        resumen={resumenData}/>
+        resumen={resumen}/>
     );
 
     const response = new NextResponse(buffer);
@@ -28,8 +27,8 @@ export async function GET(request: NextRequest) {
     response.headers.set(
       'Content-Disposition',
       preview
-        ? `inline; filename="curriculum.pdf"`
-        : `attachment; filename="curriculum.pdf"`
+        ? `inline; filename="curriculum-vitae-${nameCv}.pdf"`
+        : `attachment; filename="curriculum-vitae-${nameCv}.pdf"`
     );
 
     return response;

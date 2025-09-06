@@ -1,3 +1,5 @@
+import { resumen } from "@/src/lib/constants/resumen";
+
 const AboutSection = () => {
   return (
     <section className="about-area page-section scroll-to-page" id="about">
@@ -12,7 +14,7 @@ const AboutSection = () => {
             </h1>
           </div>
           <p className="scroll-animation" data-animation="fade_from_bottom">
-          Desde que inicié mi trayectoria como desarrollador de software hace más de 6 años, he trabajado en la creación de sistemas a medida, abarcando backend, frontend y gestión de bases de datos. He colaborado con equipos multidisciplinarios para desarrollar soluciones eficientes y escalables, tanto para empresas como para proyectos personales. Soy una persona analítica y apasionada por la tecnología, en constante aprendizaje para mejorar mis habilidades y crear aplicaciones que aporten valor a los usuarios.
+          {resumen.basics.summary}
           </p>
         </div>
       </div>

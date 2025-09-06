@@ -77,7 +77,9 @@ export default function Page() {
             <ContactSection />
           </div>
         </div>
+    
       </main>
+      
     </>
   );
 }

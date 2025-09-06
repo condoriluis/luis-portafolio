@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { resumen, yearsSinceStart } from "@/src/lib/constants/resumen";
 
 const HeroSection = () => {
   return (
@@ -10,11 +11,11 @@ const HeroSection = () => {
               <i className="las la-home"></i> Introducción
             </h4>
             <h1 className="scroll-animation" data-animation="fade_from_bottom">
-              Saludos de <span>Luis</span>, Desarrollador de Software
+              Saludos de <span>{resumen.basics.firstName}</span>, {resumen.basics.label}
             </h1>
           </div>
           <p className="scroll-animation" data-animation="fade_from_bottom">
-            Desarrollador de software y aplicaciones móviles. Especializado en backend y frontend, con enfoque en innovación, optimización y desarrollo de soluciones escalables.
+            {resumen.basics.intro}
           </p>
           <a
             href="#portfolio"
@@ -30,7 +31,7 @@ const HeroSection = () => {
 
           <div className="facts d-flex">
             <div className="left scroll-animation" data-animation="fade_from_left">
-              <h1>6+</h1>
+              <h1>{yearsSinceStart()}+</h1>
               <p>Años de <br />Experiencia</p>
             </div>
             <div className="right scroll-animation" data-animation="fade_from_right">

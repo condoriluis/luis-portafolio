@@ -1,3 +1,5 @@
+import { resumen } from "@/src/lib/constants";
+
 const ContactSection = () => {
     return (
       <section className="contact-area page-section scroll-to-page" id="contact">
@@ -12,7 +14,7 @@ const ContactSection = () => {
               </h1>
             </div>
             <h3 className="scroll-animation" data-animation="fade_from_bottom">
-              luis.condori.dev@gmail.com<br /> condori.luis.dev@gmail.com
+              {resumen.basics.email}<br />
             </h3>
   
             <div className="contact-form scroll-animation" data-animation="fade_from_top">
@@ -24,7 +26,7 @@ const ContactSection = () => {
                       type="text"
                       name="full-name"
                       id="full-name"
-                      placeholder="Luis Alberto Condori Zapana"
+                      placeholder={`${resumen.basics.firstName} ${resumen.basics.middleName} ${resumen.basics.lastName}`}
                       readOnly
                     />
                   </div>
@@ -36,9 +38,9 @@ const ContactSection = () => {
                       type="text"
                       name="phone-number"
                       id="phone-number"
-                      placeholder="+591 73247035"
+                      placeholder={resumen.basics.phone}
                       readOnly
-                      onClick={() => window.open('https://wa.me/+59173247035?text=Hola,%20Luis%20Alberto', '_blank')}
+                      onClick={() => window.open(`https://wa.me/${resumen.basics.phone}?text=Hola,%20${resumen.basics.firstName}%20${resumen.basics.middleName}`, '_blank')}
                       style={{ cursor: 'pointer' }}
                     />
                   </div>
@@ -46,7 +48,7 @@ const ContactSection = () => {
   
                 <div className="col-md-12">
                   <div className="input-group submit-btn-wrap">
-                    <a href="mailto:luis.condori.dev@gmail.com" className="theme-btn">
+                    <a href={`mailto:${resumen.basics.email}`} className="theme-btn">
                       Contactar
                     </a>
                   </div>

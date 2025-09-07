@@ -11,13 +11,14 @@ const styles = StyleSheet.create({
   title: {
     textTransform: 'uppercase',
     fontWeight: 700,
-    color: '#64748b',
+    color: '#475569',
+    fontSize: 11,
   },
   separator: {
-    height: 2,
-    marginTop: 1,
-    marginBottom: 4,
-    backgroundColor: '#64748b',
+    height: 1,
+    borderBottomWidth: 1,
+    borderBottomColor: '#475569',
+    marginVertical: 4,
   },
 });
 

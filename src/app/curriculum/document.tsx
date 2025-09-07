@@ -11,6 +11,7 @@ import { Skill } from './sections/skill';
 import { Languaje } from './sections/languaje';
 
 import { registerPdfFonts } from './utils/fonts';
+import { Watermark } from './watermark';
 
 registerPdfFonts();
 
@@ -84,6 +85,8 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
 
           </View>
         </View>
+
+        {/* <Watermark /> */}
 
         <Text
           fixed

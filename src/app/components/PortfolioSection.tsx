@@ -11,8 +11,6 @@ const PortfolioSection = () => {
     setVisibleCount(prevCount => prevCount + 3);
   };
 
-
-
   return (
     <section className="portfolio-area page-section scroll-to-page" id="portfolio">
       <div className="custom-container">
@@ -47,19 +45,19 @@ const PortfolioSection = () => {
                     <h2 className="text-white hover:text-gray-200 transition-colors duration-300 text-xl font-medium">
                       {project.title}
                     </h2>
-                    <div className="flex gap-2">
+                    <div className="d-flex">
                       {project.github && (
-                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200" title="Ir a GitHub">
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="me-2 h5" title="Ir a GitHub">
                           <FaGithub className="text-white text-xl hover:text-blue-400" />
                         </a>
                       )}
                       {project.link && (
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200" title="Visitar">
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="me-2 h5" title="Visitar">
                           <MdOpenInNew className="text-white text-xl hover:text-blue-400" />
                         </a>
                       )}
                       {project.video && (
-                        <a href={project.video} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200" title="Ver video">
+                        <a href={project.video} target="_blank" rel="noopener noreferrer" className="h5" title="Ver video">
                           <MdPlayCircleFilled className="text-white text-xl hover:text-blue-400" />
                         </a>
                       )}

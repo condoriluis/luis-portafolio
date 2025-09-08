@@ -329,7 +329,7 @@ export const resumen = {
           image: '/assets/images/skills/docker.png'
         },
         { name: 'DuckDB',
-          image: '/assets/images/skills/duckdb.png'
+          image: '/assets/images/skills/duck.png'
         },
         { name: 'Plotly',
           image: '/assets/images/skills/plotly.png'

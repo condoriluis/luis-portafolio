@@ -352,7 +352,7 @@ export const resumen = {
       imgSrc: "/assets/images/portfolio/juego-cacho.png",
       alt: "Juego de Cacho - Multiplayer en Tiempo Real",
       categories: ["Next.js v15", "React v19.0.0", "Socket.io", "Node.js v20", "Express", "Framer Motion"],
-      link: "",
+      link: "https://cacho.vercel.app",
       github: "https://github.com/condoriluis/juego-cacho-mvp",
       video: "",
       title: "Juego de Cacho - Multiplayer en Tiempo Real",

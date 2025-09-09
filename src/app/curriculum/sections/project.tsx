@@ -40,14 +40,23 @@ export const Project: React.FC<ProjectProps> = ({
   description,
   link,
   video,
+  github,
   categories,
 }) => {
+  const href = github || link || video;
+
   return (
     <View wrap={false} style={{ marginBottom: 8 }}>
-      <Link src={video || link} style={styles.link}>
+      {href ? (
+        <Link src={href} style={styles.link}>
+          <Text style={styles.title}>{title}</Text>
+        </Link>
+      ) : (
         <Text style={styles.title}>{title}</Text>
-      </Link>
+      )}
+
       <Text style={styles.description}>{description}</Text>
+
       {categories.length > 0 && (
         <View style={styles.badgesContainer}>
           {categories.map((c) => (

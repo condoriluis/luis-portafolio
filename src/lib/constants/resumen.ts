@@ -339,6 +339,36 @@ export const resumen = {
   ],
   projects: [
     {
+      imgSrc: "/assets/images/portfolio/historias.png",
+      alt: "Aplicación Móvil - Historias Interactivas con IA",
+      categories: ["Flutter v3.27", "Dart v3.6", "Provider", "HTTP", "OpenAI API", "Shared Preferences"],
+      link: "",
+      github: "https://github.com/condoriluis/story_ai_kids",
+      video: "",
+      title: "Aplicación Móvil - Historias Interactivas con IA",
+      description: "Aplicación móvil que genera historias interactivas para niños utilizando IA, con opciones de personalización y almacenamiento local para una experiencia única."
+    },
+    {
+      imgSrc: "/assets/images/portfolio/juego-cacho.png",
+      alt: "Juego de Cacho - Multiplayer en Tiempo Real",
+      categories: ["Next.js v15", "React v19.0.0", "Socket.io", "Node.js v20", "Express", "Framer Motion"],
+      link: "",
+      github: "https://github.com/condoriluis/juego-cacho-mvp",
+      video: "",
+      title: "Juego de Cacho - Multiplayer en Tiempo Real",
+      description: "Juego de Cacho en línea con modo multijugador en tiempo real, desarrollado con Next.js y Socket.io, ofreciendo una experiencia interactiva y social."
+    },
+    {
+      imgSrc: "/assets/images/portfolio/pdf-generator.png",
+      alt: "Sistema Generador de Catálogo de Productos en PDF",
+      categories: ["Next.js v15", "React v19", "TypeScript", "Tailwind CSS", "ShadCN/UI", "React-PDF"],
+      link: "",
+      github: "https://github.com/condoriluis/pdf-generator-catalogo",
+      video: "",
+      title: "Sistema Generador de Catálogo de Productos en PDF",
+      description: "Generador de catálogos de productos en PDF, permitiendo crear documentos profesionales con diseño personalizado y exportación rápida, ideal para presentaciones comerciales."
+    },
+    {
       imgSrc: "/assets/images/portfolio/instalacion.png",
       alt: "Sistema - Dashboard Dinámico",
       categories: ["PHP v8.3", "Bootstrap v5.2", "AdminLTE v3.1", "Chart JS", "Select2", "Notie"],

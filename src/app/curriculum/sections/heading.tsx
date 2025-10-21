@@ -55,7 +55,7 @@ export const Heading: React.FC<HeadingProps> = ({ info }) => {
         <Link src={`mailto:${info.email}`} style={[styles.link, styles.infoItem]}>
           <IconText icon="at" text={info.email} />
         </Link>
-        <Link src={info.url} style={[styles.link, styles.infoItem]}>
+        <Link src={`https://${info.url}`} style={[styles.link, styles.infoItem]}>
           <IconText icon="link" text={info.url} />
         </Link>
         <IconText

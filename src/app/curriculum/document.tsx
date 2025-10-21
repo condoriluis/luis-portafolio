@@ -57,11 +57,31 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
           ))}
         </Section>
 
-        <View style={styles.twoColumn}>
+        <Section title='Proyectos'>
+          {resumen.projects.slice(0, 6).map((p, index) => (
+            <Project key={`${index}-${p.title}`} {...p} />
+          ))}
+        </Section>
+
+        <Section title='Educación'>
+          {resumen.education.map((e, index) => (
+            <Education key={`${index}-${e.institution}`} {...e} />
+          ))}
+        </Section>
+
+        <Section title="Idiomas">
+          <View style={styles.container}>
+            {resumen.languages.map((w, index) => (
+              <Languaje key={`${index}-${w.name}`} {...w} name={toTitleCase(w.name)} />
+            ))}
+          </View>
+        </Section>
+
+        {/* <View style={styles.twoColumn}>
           <View style={styles.left}>
 
             <Section title='Proyectos'>
-              {resumen.projects.slice(0, 3).map((p, index) => (
+              {resumen.projects.slice(0, 5).map((p, index) => (
                 <Project key={`${index}-${p.title}`} {...p} />
               ))}
             </Section>
@@ -84,7 +104,7 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
             </Section>
 
           </View>
-        </View>
+        </View> */}
 
         {/* <Watermark /> */}
 

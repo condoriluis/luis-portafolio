@@ -5,6 +5,7 @@ import { styles } from './styles/pdfStyles';
 import { Heading } from './sections/heading';
 import { Section } from './sections/section';
 import { Experience } from './sections/experience';
+import { SoftSkills } from './sections/soft-skills';
 import { Education } from './sections/education';
 import { Project } from './sections/project';
 import { Skill } from './sections/skill';
@@ -41,6 +42,10 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
           <Text>{resumen.basics.summary}</Text>
         </Section>
 
+        <Section title='Habilidades Blandas'>
+          <SoftSkills />
+        </Section>
+
         <Section title='Stack Tecnologías'>
           {resumen.skills.map((s, index) => (
             <Skill key={`${index}-${s.name}`} {...s} />
@@ -58,7 +63,7 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
         </Section>
 
         <Section title='Proyectos'>
-          {resumen.projects.slice(0, 6).map((p, index) => (
+          {resumen.projects.slice(0, 4).map((p, index) => (
             <Project key={`${index}-${p.title}`} {...p} />
           ))}
         </Section>

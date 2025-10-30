@@ -14,8 +14,8 @@ export const resumen = {
     email: 'luis.condori.dev@gmail.com',
     phone: '+59173247035',
     url: 'luis-portafolio.vercel.app',
-    intro: `Desarrollador de software y apps móviles, con experiencia en backend y frontend. Apasionado por la innovación y la optimización, creando soluciones escalables que aporten valor real.`,
-    summary: `Soy desarrollador de software con más de ${yearsSinceStart()} años de experiencia en backend, frontend y bases de datos. He creado soluciones a medida para empresas y proyectos personales, colaborando con equipos multidisciplinarios. Me apasiona la tecnología, estoy en constante aprendizaje y siempre busco nuevas tecnologías para desarrollar software escalable y de alto valor para los usuarios.`,
+    intro: `Desarrollador de software, apps móviles y soporte técnico, con experiencia en backend y frontend. Apasionado por la innovación y la optimización, creando soluciones escalables que aporten valor real.`,
+    summary: `Profesional en Ingeniería de Sistemas con más de ${yearsSinceStart()} años de experiencia en desarrollo de software y mantenimiento de sistemas informáticos, incluyendo soporte técnico. He participado en proyectos tecnológicos para empresas e instituciones, aplicando buenas prácticas y compromiso con la mejora continua.`,
     searchWork: 'Disponible para Trabajar',
     location: {
       address: null,

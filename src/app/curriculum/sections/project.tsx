@@ -46,7 +46,7 @@ export const Project: React.FC<ProjectProps> = ({
   const href = github || link || video;
 
   return (
-    <View wrap={false} style={{ marginBottom: 8 }}>
+    <View wrap={false} style={{ marginBottom: 6 }}>
       {href ? (
         <Link src={href} style={styles.link}>
           <Text style={styles.title}>{title}</Text>

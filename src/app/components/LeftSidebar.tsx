@@ -29,7 +29,7 @@ const LeftSidebar = () => {
 
         </ul>
         <div className="cont-work">
-          <a href="mailto:luis.condori.dev@gmail.com" className="theme-btn">
+          <a href={`mailto:${resumen.basics.email}`} className="theme-btn">
             <i className="las la-envelope"></i> ¡Contáctame!
           </a>
         </div>

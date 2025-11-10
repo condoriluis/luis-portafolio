@@ -33,7 +33,7 @@ const ContactSection = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="input-group">
-                    <label htmlFor="phone-number">WhatsApp <sup>*</sup></label>
+                    <label htmlFor="phone-number">Teléfono <sup>*</sup></label>
                     <input
                       type="text"
                       name="phone-number"

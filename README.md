@@ -25,24 +25,25 @@ Este es el portafolio personal de Luis Alberto, desarrollado con **Next.js**, **
 
 ## 🛠 Stack Tecnológico
 
-| Categoría       | Tecnologías Clave                                                                 |
-|----------------|----------------------------------------------------------------------------------|
-| Frontend       | Next.js 15, React 19, TypeScript, Tailwind CSS                                  |
-| Animaciones    | GSAP, Framer Motion, AOS                                                       |
-| UI/UX          | Bootstrap 5, Custom Components, Responsive Design                              |
-| Herramientas   | Lightbox2, Line Awesome, Owl Carousel                                          |
+| Categoría    | Tecnologías Clave                                 |
+| ------------ | ------------------------------------------------- |
+| Frontend     | Next.js 16, React 19, TypeScript, Tailwind CSS    |
+| Animaciones  | GSAP, Framer Motion, AOS                          |
+| UI/UX        | Bootstrap 5, Custom Components, Responsive Design |
+| Herramientas | Lightbox2, Line Awesome, Owl Carousel             |
 
 ## 🌐 Demo Online - Experiencia Interactiva
 
 [![Vercel Deployment](https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://luis-portafolio.vercel.app)
 
 Explora el portafolio en vivo con:
+
 - 🖥 **Diseño responsive** adaptable a cualquier dispositivo
 - ✨ **Animaciones fluidas** optimizadas para UX
 - 🚀 **Performance acelerada** con Next.js
 - 🔍 **SEO mejorado** para máxima visibilidad
 
-> *"La mejor forma de entender el diseño es experimentándolo"* - [Ver ahora](https://luis-portafolio.vercel.app)
+> _"La mejor forma de entender el diseño es experimentándolo"_ - [Ver ahora](https://luis-portafolio.vercel.app)
 
 ## 🙏 Agradecimientos
 

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   },
 });
 
-type IconName = 'at' | 'calendar' | 'dot' | 'link' | 'location';
+type IconName = 'at' | 'phone' | 'calendar' | 'dot' | 'link' | 'location';
 
 type IconMap = {
   [key in IconName]: React.FC<{ color: string }>;
@@ -22,6 +22,14 @@ const icons: IconMap = {
     <>
       <Circle stroke={color} cx='12' cy='12' r='4' />
       <Path stroke={color} d='M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8' />
+    </>
+  ),
+  phone: ({ color }) => (
+    <>
+      <Path
+        stroke={color}
+        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 11.8a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 3.1 1h3a2 2 0 0 1 2 1.72c.12.83.37 1.64.72 2.41a2 2 0 0 1-.45 2.11L7 8a16 16 0 0 0 9 9l.76-.37a2 2 0 0 1 2.11-.45c.77.35 1.58.6 2.41.72a2 2 0 0 1 1.72 2z"
+      />
     </>
   ),
   calendar: ({ color }) => (

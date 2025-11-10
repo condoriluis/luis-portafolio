@@ -15,9 +15,11 @@ export async function GET(request: NextRequest) {
     
     const TemplateComponent = ResumeDocument;
 
+    const showImage = searchParams.get('img') === 'true';
+
     const buffer = await renderToBuffer(
       <TemplateComponent
-        resumen={resumen}/>
+        resumen={resumen} showImage={showImage}/>
     );
 
     const response = new NextResponse(buffer);

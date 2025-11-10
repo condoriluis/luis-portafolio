@@ -18,9 +18,10 @@ registerPdfFonts();
 
 type ResumeDocumentProps = {
   resumen: Resumen;
+  showImage?: boolean;
 };
 
-export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
+export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen, showImage }) => {
 
   const toTitleCase = (str: string) => {
     return str
@@ -36,7 +37,7 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen }) => {
       title={`Curriculum Vitae - ${resumen.basics.firstName} ${resumen.basics.middleName} ${resumen.basics.lastName}, ${new Date().getFullYear()}`}
     >
       <Page size='A4' style={styles.page}>
-        <Heading info={resumen.basics} />
+        <Heading info={resumen.basics} showImage={showImage} />
 
         <Section title='Introducción'>
           <Text>{resumen.basics.summary}</Text>

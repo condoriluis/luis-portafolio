@@ -4,7 +4,7 @@ const LeftSidebar = () => {
     return (
       <div className="left-sidebar">
         <div className="sidebar-header d-flex align-items-center justify-content-between">
-          <img src={resumen.basics.image} alt="Logo" />
+          <img src="/assets/images/logo.png" alt="Logo" />
           <span className="designation">{resumen.basics.label}</span>
         </div>
         <img className="me" src="/assets/images/me.png" alt="Me" />

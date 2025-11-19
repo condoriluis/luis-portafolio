@@ -64,7 +64,7 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen, showIma
         </Section>
 
         <Section title='Proyectos'>
-          {resumen.projects.slice(0, 4).map((p, index) => (
+          {resumen.projects.slice(0, 6).map((p, index) => (
             <Project key={`${index}-${p.title}`} {...p} />
           ))}
         </Section>

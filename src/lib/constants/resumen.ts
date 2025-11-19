@@ -82,6 +82,33 @@ export const resumen = {
   ],
   work: [
     {
+      name: 'EMPRESA STRATEGIC BOLIVIA',
+      location: 'La Paz, Bolivia',
+      skills: [
+        'react',
+        'next.js',
+        'vue.js',
+        'c#',
+        'blazor',
+        'codeigniter',
+        'laravel',
+        'mysql',
+        'postgresql',
+        'apache',
+        'scrum',
+      ],
+      position: 'Desarrollador de Software',
+      dateWork: 'Diciembre 2024 - Julio 2025',
+      summary:
+        'Desarrollo de Software',
+      highlights: [
+        'Creación y Analisis de Base de Datos.',
+        'Desarrollo de software en tecnologias: Backend y Frontend.',
+        'Creación de documentación técnica de APIs RESTful utilizando Swagger.',
+        'Brindar soporte durante el proceso de desarrollo de Software.',
+      ],
+    },
+    {
       name: 'NOTARÍA DE FE PÚBLICA',
       location: 'La Paz, Bolivia',
       skills: [
@@ -94,9 +121,9 @@ export const resumen = {
       summary:
         'Técnico en Soporte y Mantenimiento de Equipos Computarizados',
       highlights: [
-        'Solución de problemas y asistencia técnica',
-        'Actualización y monitoreo de sistemas',
-        'Manejo de sistemas operativos Windows',
+        'Solución de problemas y asistencia técnica.',
+        'Actualización y monitoreo de sistemas.',
+        'Manejo de sistemas operativos Windows.',
       ],
     },
     {
@@ -115,11 +142,11 @@ export const resumen = {
       summary:
         'Soporte al cliente y mantenimiento de sistemas',
       highlights: [
-        'Desarrollo de Sistemas Informáticos para el MDPyEP',
-        'Soporte y Mantenimiento de equipos de computación',
-        'Administración de impresoras, scanners y fotocopiadoras',
-        'Manejo de sistemas operativos Windows, Linux',
-        'Implementación de medidas de seguridad y backups',
+        'Desarrollo de Sistemas Informáticos para el MDPyEP.',
+        'Soporte y Mantenimiento de equipos de computación.',
+        'Administración de impresoras, scanners y fotocopiadoras.',
+        'Manejo de sistemas operativos Windows, Linux.',
+        'Implementación de medidas de seguridad y backups.',
       ],
     },
     {
@@ -142,7 +169,7 @@ export const resumen = {
       highlights: [
         'Creación y Analisis de Base de Datos.',
         'Apoyar en la implementación del desarrollo en tecnologias basadas en software: Backend y Frontend.',
-        'Gestor de Desarrollo de base de datos: PostgreSQL y MySQL',
+        'Gestor de Desarrollo de base de datos: PostgreSQL y MySQL.',
         'Metodología de Software: SCRUM.',
       ],
     },

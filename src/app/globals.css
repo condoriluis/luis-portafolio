@@ -34,6 +34,16 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.resume-area .resume-timeline ul,
+.resume-area .resume-timeline ul li {
+  list-style: disc; 
+  list-style-position: list-item;
+}
+.resume-area .resume-timeline ul {
+  margin-left: 20px; 
+  padding-left: 0;
+}
 .content-width {
   max-width: 770px;
   width: 100%;

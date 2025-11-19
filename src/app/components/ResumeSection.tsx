@@ -29,16 +29,17 @@ const ResumeSection = () => {
                 <span className="date">{resume.dateWork}</span>
                 <h2>{resume.position}</h2>
                 <p>{resume.name} - {resume.location}</p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {resume.skills.map((skill, idx) => (
-                    <span
-                      key={idx}
-                      className="bg-gray-200 px-2 py-1 text-black text-xs rounded-full shadow"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+
+                <div className="mt-3">
+                  <ul className="list-disc list-inside space-y-1 text-xs text-gray-600">
+                    {(resume.highlights ?? []).map((item, idx) => (
+                      <li key={`${resume.position}-${idx}`} className="leading-snug">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
+
               </div>
             ))}
             

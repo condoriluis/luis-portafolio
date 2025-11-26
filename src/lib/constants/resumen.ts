@@ -289,6 +289,9 @@ export const resumen = {
         { name: 'Next.js',
           image: '/assets/images/skills/nextjs.png'
         },
+        { name: 'Astro',
+          image: '/assets/images/skills/astrofront.png'
+        },
         { name: 'Vue.js 3',
           image: '/assets/images/skills/vuejs.png'
         },

@@ -10,7 +10,7 @@ export const resumen = {
     middleName: 'Alberto',
     lastName: 'Condori Zapana',
     label: 'Desarrollador de Software',
-    image: 'https://evolucionlcz.s3.us-east-2.amazonaws.com/484d7a3acd019c.jpg',
+    image: 'https://res.cloudinary.com/dpyrrgou3/image/upload/v1764203129/17b3bd2893afe7_qlrkty.jpg',
     email: 'luis.condori.dev@gmail.com',
     phone: '+59173247035',
     url: 'luis-portafolio.vercel.app',

@@ -369,6 +369,16 @@ export const resumen = {
   ],
   projects: [
     {
+      imgSrc: "/assets/images/portfolio/fms.png",
+      alt: "Sistema Gestor de Archivos en la Nube",
+      categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "Supabase", "AWS S3", "Cloudinary", "Mailchimp"],
+      link: "https://fms-bo.vercel.app/",
+      github: "",
+      video: "",
+      title: "Sistema Gestor de Archivos en la Nube",
+      description: "FMS es una plataforma web (SPA) para la gestión y almacenamiento de archivos en la nube. Permite a los usuarios subir, listar, buscar, filtrar, renombrar, copiar enlaces y eliminar archivos de manera sencilla y segura."
+    },
+    {
       imgSrc: "/assets/images/portfolio/historias.png",
       alt: "Aplicación Móvil - Historias Interactivas con IA",
       categories: ["Flutter v3.27", "Dart v3.6", "Provider", "HTTP", "OpenAI API", "Shared Preferences"],

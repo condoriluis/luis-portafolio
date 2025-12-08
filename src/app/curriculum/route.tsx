@@ -22,7 +22,9 @@ export async function GET(request: NextRequest) {
         resumen={resumen} showImage={showImage}/>
     );
 
-    const response = new NextResponse(buffer);
+    const uint8 = new Uint8Array(buffer);
+
+    const response = new NextResponse(uint8);
     response.headers.set('Content-Type', 'application/pdf');
 
     const preview = searchParams.get('preview') === 'true';

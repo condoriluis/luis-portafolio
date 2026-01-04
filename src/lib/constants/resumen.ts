@@ -369,6 +369,16 @@ export const resumen = {
   ],
   projects: [
     {
+      imgSrc: "/assets/images/portfolio/bi-dashboard.png",
+      alt: "Sistema integral de Dashboard de Inteligencia de Negocios",
+      categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "ApexCharts", "React Query", "Python v3+", "FastAPI", "DuckDB"],
+      link: "",
+      github: "",
+      video: "",
+      title: "Sistema Bi Dashboard dinámico inteligente",
+      description: "Sistema integral de Dashboard de Inteligencia de Negocios compuesto por un frontend en Next.js y un backend en FastAPI con DuckDB, Permite la visualización interactiva de datos empresariales mediante gráficos y tablas dinámicas, facilitando la toma de decisiones informadas."
+    },
+    {
       imgSrc: "/assets/images/portfolio/fms.png",
       alt: "Sistema Gestor de Archivos en la Nube",
       categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "Supabase", "AWS S3", "Cloudinary", "Mailchimp"],

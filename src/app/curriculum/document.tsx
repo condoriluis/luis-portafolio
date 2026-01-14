@@ -29,8 +29,8 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen, showIma
       .split(' ')
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
-    };
-  
+  };
+
   return (
     <Document
       author={`${resumen.basics.firstName} ${resumen.basics.middleName}`}
@@ -52,7 +52,7 @@ export const ResumeDocument: React.FC<ResumeDocumentProps> = ({ resumen, showIma
             <Skill key={`${index}-${s.name}`} {...s} />
           ))}
         </Section>
-        
+
         <Section title="Experiencia Laboral">
           {resumen.work.map((w, index) => (
             <Experience

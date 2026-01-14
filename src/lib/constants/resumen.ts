@@ -9,12 +9,12 @@ export const resumen = {
     firstName: 'Luis',
     middleName: 'Alberto',
     lastName: 'Condori Zapana',
-    label: 'Desarrollador de Software',
+    label: 'Desarrollador de Software & Soporte Técnico',
     image: 'https://res.cloudinary.com/dpyrrgou3/image/upload/v1764203129/17b3bd2893afe7_qlrkty.jpg',
     email: 'luis.condori.dev@gmail.com',
     phone: '+59173247035',
     url: 'luis-portafolio.vercel.app',
-    intro: `Desarrollador de software, apps móviles y soporte técnico, con experiencia en backend y frontend. Apasionado por la innovación y la optimización, creando soluciones escalables que aporten valor real.`,
+    intro: `Con amplia experiencia en backend, frontend y mantenimiento de sistemas informáticos. Apasionado por la innovación y la optimización, creando soluciones escalables que aporten valor real.`,
     summary: `Profesional en Ingeniería de Sistemas con más de ${yearsSinceStart()} años de experiencia en desarrollo de software, además de una sólida experiencia en mantenimiento de sistemas informáticos y soporte técnico. He participado en proyectos tecnológicos para empresas e instituciones, aplicando buenas prácticas y compromiso con la mejora continua.`,
     searchWork: 'Disponible para Trabajar',
     location: {
@@ -155,7 +155,7 @@ export const resumen = {
       skills: [
         'c#',
         'blazor',
-        'react', 
+        'react',
         'codeigniter',
         'mysql',
         'postgresql',
@@ -257,113 +257,169 @@ export const resumen = {
     {
       name: 'Lenguajes de Programación',
       keywords: [
-        { name: 'TypeScript',
+        {
+          name: 'TypeScript',
           image: '/assets/images/skills/typescript.png'
         },
-        { name: 'JavaScript',
+        {
+          name: 'JavaScript',
           image: '/assets/images/skills/javascript.png'
         },
-        { name: 'Dart',
+        {
+          name: 'Dart',
           image: '/assets/images/skills/dart.png'
         },
-        { name: 'PHP',
+        {
+          name: 'Python',
+          image: '/assets/images/skills/python.png'
+        },
+        {
+          name: 'PHP',
           image: '/assets/images/skills/php.png'
         },
-        { name: 'Python',
-          image: '/assets/images/skills/python.png'
-        }
       ]
     },
     {
-      name: 'Frontend Tecnologías',
+      name: 'Frontend & Mobile',
       keywords: [
-        { name: 'HTML',
+        {
+          name: 'HTML5',
           image: '/assets/images/skills/html.png'
         },
-        { name: 'CSS',
+        {
+          name: 'CSS3',
           image: '/assets/images/skills/css.png'
         },
-        { name: 'React',
+        {
+          name: 'React',
           image: '/assets/images/skills/react.png'
         },
-        { name: 'Next.js',
+        {
+          name: 'Next.js',
           image: '/assets/images/skills/nextjs.png'
         },
-        { name: 'Astro',
+        {
+          name: 'Astro',
           image: '/assets/images/skills/astrofront.png'
         },
-        { name: 'Vue.js 3',
+        {
+          name: 'Vue.js 3',
           image: '/assets/images/skills/vuejs.png'
         },
-        { name: 'Vuetify 3',
-          image: '/assets/images/skills/vuetify.png'
-        },
-        { name: 'Flutter',
+        {
+          name: 'Flutter',
           image: '/assets/images/skills/flutter.png'
+        }
+      ]
+    },
+    {
+      name: 'UI/Styling',
+      keywords: [
+        {
+          name: "Tailwind CSS",
+          image: "/assets/images/skills/tailwindcss.png"
         },
-        { name: 'Bootstrap',
+        {
+          name: 'Bootstrap',
           image: '/assets/images/skills/bootstrap.png'
         },
-        { 
-          name: "Tailwind CSS", 
-          image: "/assets/images/skills/tailwindcss.png" 
+        {
+          name: 'Vuetify 3',
+          image: '/assets/images/skills/vuetify.png'
         },
-        { 
-          name: "ShadCN/UI", 
-          image: "/assets/images/skills/shadcn.png" 
+        {
+          name: "ShadCN/UI",
+          image: "/assets/images/skills/shadcn.png"
         }
       ]
     },
     {
-      name: 'Backend & Bases de Datos',
+      name: 'Visualización de Datos',
       keywords: [
-        { name: 'Node.js',
-          image: '/assets/images/skills/nodejs.png'
+        {
+          name: "ApexCharts",
+          image: "/assets/images/skills/apexcharts.png"
         },
-        { name: 'Laravel',
-          image: '/assets/images/skills/laravel.png'
-        },
-        { name: 'CodeIgniter',
-          image: '/assets/images/skills/codeigniter.png'
-        },
-        { name: 'Swagger Doc',
-          image: '/assets/images/skills/swagger.png'
-        },
-        { name: 'MySQL',
-          image: '/assets/images/skills/mysql.png'
-        },
-        { name: 'PostgreSQL',
-          image: '/assets/images/skills/postgresql.png'
-        },
-        { name: 'Apache',
-          image: '/assets/images/skills/apache.png'
-        }
-      ]
-    },
-    {
-      name: 'DevOps y herramientas',
-      keywords: [
-        { name: 'Git',
-          image: '/assets/images/skills/git.png'
-        },
-        { name: 'Linux',
-          image: '/assets/images/skills/linux.png'
-        },
-        { name: 'VS Code',
-          image: '/assets/images/skills/vscode.png'
-        },
-        { name: 'Postman',
-          image: '/assets/images/skills/postman.png'
-        },
-        { name: 'Docker Desktop',
-          image: '/assets/images/skills/docker.png'
-        },
-        { name: 'DuckDB',
-          image: '/assets/images/skills/duck.png'
-        },
-        { name: 'Plotly',
+        {
+          name: 'Plotly',
           image: '/assets/images/skills/plotly.png'
         }
+      ]
+    },
+    {
+      name: 'Backend & APIs',
+      keywords: [
+        {
+          name: 'FastAPI',
+          image: '/assets/images/skills/fastapi.png'
+        },
+        {
+          name: 'Node.js',
+          image: '/assets/images/skills/nodejs.png'
+        },
+        {
+          name: 'Laravel',
+          image: '/assets/images/skills/laravel.png'
+        },
+        {
+          name: 'CodeIgniter',
+          image: '/assets/images/skills/codeigniter.png'
+        },
+        {
+          name: 'Wordpress',
+          image: '/assets/images/skills/wordpress.png'
+        },
+        {
+          name: 'Swagger (OpenAPI)',
+          image: '/assets/images/skills/swagger.png'
+        },
+
+      ]
+    },
+    {
+      name: 'Bases de Datos',
+      keywords: [
+        {
+          name: 'MySQL',
+          image: '/assets/images/skills/mysql.png'
+        },
+        {
+          name: 'PostgreSQL',
+          image: '/assets/images/skills/postgresql.png'
+        },
+        {
+          name: 'DuckDB',
+          image: '/assets/images/skills/duck.png'
+        }
+      ]
+    },
+    {
+      name: 'DevOps & Herramientas',
+      keywords: [
+        {
+          name: 'Git',
+          image: '/assets/images/skills/git.png'
+        },
+        {
+          name: 'Linux',
+          image: '/assets/images/skills/linux.png'
+        },
+        {
+          name: 'Docker',
+          image: '/assets/images/skills/docker.png'
+        },
+        {
+          name: 'Apache',
+          image: '/assets/images/skills/apache.png'
+        },
+        {
+          name: 'VS Code',
+          image: '/assets/images/skills/vscode.png'
+        },
+        {
+          name: 'Postman',
+          image: '/assets/images/skills/postman.png'
+        },
       ]
     }
   ],
@@ -371,7 +427,7 @@ export const resumen = {
     {
       imgSrc: "/assets/images/portfolio/bi-dashboard.png",
       alt: "Sistema integral de Dashboard de Inteligencia de Negocios",
-      categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "ApexCharts", "React Query", "Python v3+", "FastAPI", "DuckDB"],
+      categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "ApexCharts", "Python v3+", "FastAPI", "DuckDB"],
       link: "",
       github: "",
       video: "",

@@ -362,6 +362,10 @@ export const resumen = {
           image: '/assets/images/skills/laravel.png'
         },
         {
+          name: 'FilamentPHP',
+          image: '/assets/images/skills/filamentphp.png'
+        },
+        {
           name: 'CodeIgniter',
           image: '/assets/images/skills/codeigniter.png'
         },
@@ -473,6 +477,16 @@ export const resumen = {
       video: "",
       title: "Sistema Generador de Catálogo de Productos en PDF",
       description: "Generador de catálogos de productos en PDF, permitiendo crear documentos profesionales con diseño personalizado y exportación rápida, ideal para presentaciones comerciales."
+    },
+    {
+      imgSrc: "/assets/images/portfolio/filament.png",
+      alt: "Sistema - Panel de Administración con FilamentPHP y Laravel",
+      categories: ["PHP v8.2", "Laravel v12", "FilamentPHP", "Livewire", "Tailwind CSS", "MySQL"],
+      link: "",
+      github: "",
+      video: "",
+      title: "Sistema - Panel de Administración con FilamentPHP y Laravel",
+      description: "Panel de administración robusto desarrollado con FilamentPHP y Laravel, facilitando la gestión de usuarios, roles y contenido mediante una interfaz intuitiva y personalizable."
     },
     {
       imgSrc: "/assets/images/portfolio/instalacion.png",

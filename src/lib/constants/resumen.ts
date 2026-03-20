@@ -429,6 +429,16 @@ export const resumen = {
   ],
   projects: [
     {
+      imgSrc: "/assets/images/portfolio/miblogi.png",
+      alt: "MiBlogi - Blog de Tecnología e Inteligencia Artificial",
+      categories: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "Cloudinary", "Mailchimp"],
+      link: "https://miblogi.vercel.app/",
+      github: "",
+      video: "",
+      title: "MiBlogi - Blog de Tecnología e IA",
+      description: "Blog tecnológico en español sobre Inteligencia Artificial, automatización y agentes inteligentes. Incluye CMS propio con Supabase, gestión de imágenes vía Cloudinary, newsletter con Mailchimp, búsqueda y filtrado por etiquetas, modo oscuro/claro y diseño responsivo."
+    },
+    {
       imgSrc: "/assets/images/portfolio/bi-dashboard.png",
       alt: "Sistema integral de Dashboard de Inteligencia de Negocios",
       categories: ["Next.js v16+", "React v19", "TypeScript", "ShadCN/UI", "ApexCharts", "Python v3+", "FastAPI", "DuckDB"],
